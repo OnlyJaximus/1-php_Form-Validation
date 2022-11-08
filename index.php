@@ -10,6 +10,22 @@
 </head>
 
 <body>
+        <nav class="navbar navbar-expand navbar-light bg-light">
+        <a href="#" class="navbar-brand">PHP 1 Exercise</a>
+        <ul class="navbar-nav">
+            <?php
+            $links = ['Home', 'About', 'Galery', 'Contact'];
+            // for ($i = 0; $i < count($links); $i++) {
+            //     echo '<li class="nav-item"><a href="" class="nav-link">' . $links[$i] . '</a></li>';
+            // }
+            ?>
+
+            <?php for ($i = 0; $i < count($links); $i++) : ?>
+                <li class="nav-item"><a href="#" class="nav-link"><?php echo $links[$i] ?></a></li>
+            <?php endfor; ?>
+
+        </ul>
+    </nav>
     <div class="jumbotron text-center">
         <h2>Form validacija</h2>
     </div>
