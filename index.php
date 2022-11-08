@@ -27,7 +27,7 @@
         </ul>
     </nav>
     <div class="jumbotron text-center">
-        <h2>Form validacija</h2>
+        <h2>Form Validation</h2>
     </div>
     <div class="container">
         <div class="row">
